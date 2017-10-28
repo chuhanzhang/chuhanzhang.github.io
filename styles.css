@@ -14,25 +14,87 @@ body {
 	box-sizing: border-box;
 }
 
-@media (max-width: 500px) {
-	body {
-		padding: 50px;
+.photo-container {
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	height: 100%;
+}
+
+.photo {
+	width: 100%;
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	transition: 0.5s ease-out;
+}
+
+.photo:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+
+#photo1 {
+	background: url('assets/chuhan.jpg') no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+
+#photo2 {
+	background: url('assets/chuhan2.jpg') no-repeat;
+	background-size: cover;
+	background-position-x: 60%;
+	height: 400px;
+}
+#photo3 {
+	background: url('assets/chuhan3.jpg') no-repeat;
+	background-size: cover;
+	height: 500px;
+}
+
+
+
+.text {
+	box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 4em;
+	}
+	.text {
+		display: block;
+		width: 100%;
+		padding: 30px;
+	}
+	.photo-container {
+		width: 100%;
+		display: none;
+		height: 100%;
 	}
 }
 
-@media (min-width: 500px){
-	body {
-		padding: 80px;
+@media (min-width: 600px){
+	h1 {
+		font-size: 5em;
 	}
+	body {
+		display: flex;
+	}
+	.text {
+		padding: 60px;
+		flex: 8 0 0;
+	}
+	.photo-container {
+		flex: 4 0 0;
+	}
+
 }
 
 h1 {
-	font-size: 5em;
 	font-weight: 100;
 	margin: 0;
 }
 
-h3 {
+h4 {
 	margin: 20px 0 5px 0;
 }
 
@@ -82,7 +144,7 @@ ul {
 
 li {
 	opacity: 0.7;
-	margin: 10px 0;
+	margin: 5px 0;
 	list-style-type: disk;
 }
 
