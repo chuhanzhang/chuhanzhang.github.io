@@ -55,6 +55,11 @@ body {
 	background-size: cover;
 }
 
+.program {
+	background-color: rgba(0,0,0,1);
+	padding: 30px;
+}
+
 .section {
 	padding: 10px 20px;
 }
