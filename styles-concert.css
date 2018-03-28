@@ -1,0 +1,51 @@
+* {
+	font-family: "Garamond", serif;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0);
+	padding: 0;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: "Garamond", serif;
+	padding: 0;
+	margin: 0;
+}
+
+.section {
+	padding: 10px;
+}
+
+.img {
+	width: 100%;
+}
+
+p {
+	font-size: 1em;
+	line-height: 2em;
+}
+
+.subtitle {
+	font-family: sans-serif;
+}
+
+.quote {
+	/*background-color: rgba(0,0,0,0.1);*/
+	font-size: 1.2em;
+	padding: 8%;
+	color: rgba(0,0,0,0.5);
+}
+
+.divider {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.dividerdot {
+	margin: 0 5px;
+}
