@@ -17,12 +17,12 @@ body {
 }
 
 .fadein {
-	-webkit-animation: fadein 2s;
-	animation: fadein 2s;
+	-webkit-animation: fadein 4s;
+	animation: fadein 4s;
 }
 
 .fadein-delay {
-	-webkit-animation: 2s;
+	-webkit-animation: 4s;
 	animation: fadein 4s;
 }
 
