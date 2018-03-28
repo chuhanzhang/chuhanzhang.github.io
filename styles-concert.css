@@ -59,6 +59,15 @@ body {
 	padding: 10px 20px;
 }
 
+.caption {
+	font-family: sans-serif;
+	width: 100%;
+	font-size: 0.8em;
+	text-align: center;
+	margin-top: 15px;
+	padding: 5px;
+}
+
 .img {
 	width: 100%;
 }
