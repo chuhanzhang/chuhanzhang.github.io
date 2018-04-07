@@ -103,3 +103,7 @@ p {
 .dividerdot {
 	margin: 0 5px;
 }
+
+.sign-off {
+	text-align: right;
+}
